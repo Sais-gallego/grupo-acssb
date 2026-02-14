@@ -1,0 +1,8 @@
+body{
+    background-color:bisque ; /*color de fondo si lo llegan a cambiar avise*/
+    font-family: 'Times New Roman', Times, serif;/*tipo de letra*/
+}
+h1{
+    color:blue; /*color del titulo*/
+    text-align: center; /*centrar el titulo*/
+}   
