@@ -1,8 +1,62 @@
 body{
-    background-color:bisque ; /*color de fondo si lo llegan a cambiar avise*/
-    font-family: 'Times New Roman', Times, serif;/*tipo de letra*/
+    background-color: #f0f8ff; /*color de fondo general de la pagina*/
+    font-family: Arial, sans-serif; /*tipo de letra*/
+    margin: 0; /*elimina margen por defecto del navegador*/
 }
+
+header{
+    background-color: bisque; /*color de fondo del encabezado*/
+    padding: 20px; /*espacio interno*/
+}
+
 h1{
-    color:blue; /*color del titulo*/
+    color: white; /*color del titulo principal*/
     text-align: center; /*centrar el titulo*/
-}   
+}
+
+nav{
+    background-color: #0066cc; /*color de fondo del menu*/
+    padding: 10px; /*espacio interno*/
+}
+
+nav ul{
+    list-style: none; /*quita los puntos de la lista*/
+    margin: 0; /*quita margen*/
+    padding: 0; /*quita espacio interno*/
+    text-align: center; /*centra las opciones*/
+}
+
+nav ul li{
+    display: inline; /*pone el menu en linea horizontal*/
+    margin: 15px; /*espacio entre opciones*/
+}
+
+nav ul li a{
+    color: white; /*color del texto del menu*/
+    text-decoration: none; /*quita el subrayado*/
+    font-weight: bold; /*pone el texto en negrita*/
+}
+
+nav ul li a:hover{
+    text-decoration: underline; /*subraya cuando pasa el mouse*/
+}
+
+section{
+    padding: 30px; /*espacio del contenido*/
+    text-align: center; /*centra el contenido*/
+}
+
+h2{
+    color: #004080; /*color del subtitulo*/
+}
+
+p{
+    color: #333333; /*color del texto del parrafo*/
+}
+
+footer{
+    background-color: #004080; /*color del pie de pagina*/
+    color: white; /*color del texto*/
+    text-align: center; /*centrar texto*/
+    padding: 15px; /*espacio interno*/
+}
