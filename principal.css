@@ -1,6 +1,6 @@
 body{
     background-color: #f0f8ff; /*color de fondo general de la pagina*/
-    font-family: Arial, sans-serif; /*tipo de letra*/
+    font-family: 'Times New Roman', Times, serif; /*tipo de letra*/
     margin: 0; /*elimina margen por defecto del navegador*/
 }
 
